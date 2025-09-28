@@ -1,0 +1,36 @@
+
+:root {
+  --blue-color: #37517e;
+}
+.dropdown-menu a {
+  color: black !important;
+}
+.hero {
+  background-color: var(--blue-color);
+}
+.hero a {
+  color: white !important;
+}
+.container {
+  color: white !important;
+}
+.text-blue {
+  color: var(--blue-color);
+}
+.gray-line {
+  position: relative;
+  width: 150px;
+  height: 2px;
+  background-color: gray;
+  margin: 0.5rem auto;
+}
+.blue-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 50%;
+  height: 3px;
+  background-color: var(--bs-info);
+  border-radius: 2px;
+}
