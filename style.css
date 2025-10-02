@@ -1,8 +1,15 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 img {
   width: 100%;
 }
 :root {
   --blue-color: #37517e;
+  --heading-font: "Jost", sans-serif;
+}
+.brand,.heading-text{
+  font-family:var(--heading-font);
 }
 navbar .dropdown-menu a {
   color: black !important;
@@ -66,7 +73,7 @@ navbar .dropdown-menu a {
     transform: translateY(0);
   }
   to {
-    transform: translateY(-30px);
+    transform: translateY(-10px);
   }
 }
 .s-card {
